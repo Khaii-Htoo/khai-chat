@@ -1,13 +1,5 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import {
-  MessageCircle,
-  Smartphone,
-  Shield,
-  Play,
-  Lock,
-  Heart,
-} from "lucide-react";
 import { HeroSection } from "@/components/hero-section";
 import Navbar from "@/components/navbar";
 import Features from "@/components/features-section";
