@@ -79,7 +79,7 @@ export const HeroSection = () => {
             {/* Animated Phone Mockup */}
             <div className="relative max-w-sm mx-auto">
               <div className="relative z-10 transform hover:scale-105 transition-all duration-500 bg-white dark:bg-gray-800 rounded-3xl p-2 shadow-2xl border border-gray-100 dark:border-gray-700">
-                <div className="bg-gray-100 dark:bg-gray-900 rounded-2xl p-6 h-96 flex flex-col">
+                <div className="bg-gray-100 dark:bg-gray-900 rounded-2xl p-6 h-72 flex flex-col">
                   <div className="flex items-center justify-between mb-4">
                     <div className="flex space-x-1">
                       <div className="w-3 h-3 bg-red-500 rounded-full animate-pulse"></div>
@@ -99,7 +99,7 @@ export const HeroSection = () => {
                         style={{ animationDelay: `${i * 0.2}s` }}
                       >
                         <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full"></div>
-                        <div className="flex-1 h-3 bg-gray-300 dark:bg-gray-700 rounded"></div>
+                        <div className="flex-1 h-6 bg-gray-300 dark:bg-gray-700 rounded"></div>
                       </div>
                     ))}
                   </div>
